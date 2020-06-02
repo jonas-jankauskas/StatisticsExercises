@@ -1,0 +1,28 @@
+---------------
+sample size    =  22
+first sample x =  [3.570, 3.660, 3.480, 3.620, 3.880, 3.800, 3.820, 3.730, 3.230, 3.580, 3.700, 3.520, 3.540, 3.340, 3.620, 3.280, 3.330, 3.460, 3.380, 3.680, 3.680, 3.810]
+---------------
+conjectured population mean mu =  3.500
+sample mean                    =  3.578
+sample stdev                   =  0.1849
+population stdev estimate      =  0.03941
+---------------
+t-score =  1.972
+p-value =  0.9691
+---------------
+degrees of freedom =  21
+5.00 %-significance t-quantiles:
+t(sig/2) =  -2.080  t(1-sig/2) =  2.080
+t(sig)   =  -1.721  t(1-sig)   =  1.721
+---------------
+95.00 %-confidence intervals for population mean:
+symmetric : ( 3.496 ,  3.660 )
+left open : ( -infinity ,  3.646 )
+right open: ( 3.510 ,  +infinity )
+---------------
+H_0: mu =  3.500 against H_A: mu <>  3.500 with  95.00 %-confidence
+H_0 accepted, H_A rejected!
+H_0: mu =  3.500 against H_A: mu <   3.500  with  95.00 %-confidence
+H_0 accepted, H_A rejected!
+H_0: mu =  3.500 against H_A: mu >   3.500  with  95.00 %-confidence
+H_0 accepted, H_A rejected!
