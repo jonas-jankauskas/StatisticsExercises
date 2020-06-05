@@ -69,7 +69,7 @@ t_val = T.cum_distribution_function_inv(conf) #conf=1-sig
 
 #difference (x-y) t-score and p-value 
 t = (mxy - muxy)/stdxy
-p = T.cum_distribution_function(z)
+p = T.cum_distribution_function(t)
 
 #Confidence intervals
 sym_start = mxy - stdxy * t_sym

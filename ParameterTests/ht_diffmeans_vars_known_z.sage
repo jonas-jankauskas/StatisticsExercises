@@ -83,8 +83,8 @@ print 'Second sample      y = ', [el.n(digits=4) for el in y]
 print '---------------'
 print 'first sample  x mean         = ', mx.n(digits=4)
 print 'second sample y mean         = ', my.n(digits=4)
-print 'first  sample variance x var = ', varx.n(digits=4)
-print 'second sample variance y var = ', vary.n(digits=4)
+print 'first  population variance x var = ', varx.n(digits=4)
+print 'second population variance y var = ', vary.n(digits=4)
 
 print '---------------'
 print '(x-y) difference sample mean = ', mxy.n(digits=4)

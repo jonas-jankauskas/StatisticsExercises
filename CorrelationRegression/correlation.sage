@@ -75,9 +75,14 @@ print 'second sample y = ', print_real_list(y)
 print
 
 print '--------------------------------------------------------------------'
-print 'mx        = ', mean(x).n(digits=prec), ',      my         = ', mean(y).n(digits=prec)
-print 'stdev(x)  = ', std(x).n(digits=prec),  ',     std(y)     = ', std(y).n(digits=prec)
-print 'cov(x, y) = ', (cov(x, y)).n(digits=prec), ', corr(x, y) = ', r.n(digits=prec)
+print '     ', 'x',                         '          ', 'y'
+print 'mean ', mean(x).n(digits=prec),      '      ',     mean(y).n(digits=prec)
+print 'var  ', variance(x).n(digits=prec),  '      ',     variance(y).n(digits=prec)
+print 'std  ', std(x).n(digits=prec),       '      ',     std(y).n(digits=prec)
+print
+print 'cov  ', (cov(x, y)).n(digits=prec)
+print 'cor  ', (cor(x,y)).n(digits=prec)
+print
 
 print '--------------------------------------------------------------------'
 print 't-score = ', t.n(digits=prec), ', p-value = ', pval.n(digits=prec)

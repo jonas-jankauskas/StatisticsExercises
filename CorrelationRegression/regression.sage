@@ -20,11 +20,11 @@ import sage.probability as pr
 x = [8, 9, 9, 12, 13, 14, 14, 16, 16, 16]
 y = [-55, -55, -53, -50, -50, -35, -37, -35, -27, -24]
 
-x_0 = 20
-#x_0 = 6
+x_0 = 6
+#x_0 = 20
 
 #significance and confidence levels
-conf = 0.99
+conf = 0.9
 sig = 1-conf
 
 #conf = 0.9 for ex. 53b) and conf = 0.99 for Ex.53 c) and Ex. 54
